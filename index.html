@@ -7,25 +7,406 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="todos-bg-container">
+    <div class="bg-container ">
+        <div id="navbar-container">
+            <div class="nav-blu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="nav-heading">Gogaga Holidays</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link" href="#holiday-packages">Holiday Packages</a>
+                            <a class="nav-link" href="#flights">Flights</a>
+                            <a class="nav-link" href="#hotels">Hotels</a>
+                            <a class="nav-link" href="#collections">Package Collections</a>
+                            <a class="nav-link" href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="home-container">
+            <div class="text-center">
+                <h1 class="welcome-heading-1">Discover The Colorful World</h1>
+                <h1 class="welcome-heading-2">New Adventure</h1>
+                <h1 class="welcome-heading-3">CELEBRATE YOUR HOLIDAY TRAVEL</h1>
+            </div>
+            <div class="icons-container">
+                <div class="icon-card">
+                    <i class="fa-sharp fa fa-plane-departure icon"></i>
+                    <h1 class="cards-heading" href="#flights">Flights</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-hotel icon" href="#hotels"></i>
+                    <h1 class="cards-heading">Hotels</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-umbrella-beach icon" href="#holiday-packages"></i>
+                    <h1 class="cards-heading">Holiday Packages</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-train icon"></i>
+                    <h1 class="cards-heading">Trains</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-bus icon"></i>
+                    <h1 class="cards-heading">Buses</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-car icon"></i>
+                    <h1 class="cards-heading">Cabs</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-solid fa-house icon"></i>
+                    <h1 class="cards-heading">Homestays & Villas</h1>
+                </div>
+                <div class="icon-card">
+                    <i class="fa-regular fa-solid fa-bookmark icon"></i>
+                    <h1 class="cards-heading">Homestays & Villas</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="holiday-packages-section col-12" id="holiday-packages">
+        <h1 class="heading"><i class="fa-solid fa-route icon-heading"></i> Holiday Package</h1>
+        <div class="package-container">
+            <div class="kerela-package ">
+                <h2 class="place-heading">Kerela - Gods's Own Country:</h2>
+                <p class="place-description">Kerala is famous for its backwaters, beaches, and hill stations. You can explore scenic locations, experience the rich culture, and enjoy the delicious food.<br><br>
+                    Kerala Tour Packages<br>Starting@ Rs.11 949.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="lakshadweep-package ">
+                <h2 class="place-heading">Lakshadweep - Gods's Own Country:</h2>
+                <p class="place-description">Lakshadweep is a beautiful archipelago of 36 islands and coral reefs in the Laccadive Sea, off the coast of Kerala, India. <br><br>
+                    Lakshadweep Tour Packages<br>Starting@ Rs.64 000.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="ayodhya-package ">
+                <h2 class="place-heading">Ayodhya - The Abode of Gods:</h2>
+                <p class="place-description">Uttarakhand is a beautiful state in the Himalayas, known for its stunning scenery, adventure activities, and spiritual significance. You can go the midst of nature.<br><br>Ayodhya Tour Packages<br>Starting@ Rs.37 700.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="rajasthan-package">
+                <h2 class="place-heading">Rajasthan - The Land of Kings:</h2>
+                <p class="place-description">Rajasthan is a land of forts, palaces, and deserts. You can explore the magnificent forts of Jaipur and Mehrangarh,go on a desert safari in Jaisalmer.<br><br>Rajasthan Tour Packages<br>Starting@ Rs.35 700.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="goa-package">
+                <h2 class="place-heading">Goa - The Beach Paradise:</h2>
+                <p class="place-description">Goa is a popular beach destination, known for its laid-back atmosphere, beautiful beaches, and nightlife. or explore the Portuguese heritage of Goa.<br><br>Goa Tour Packages<br>Starting@ Rs.35 700.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div class="himachal-pradesh-package">
+                <h2 class="place-heading">Himachal Pradesh - The Land of Snowfall:</h2>
+                <p class="place-description"> Himachal Pradesh is a beautiful state in the Himalayas, known for its snow-capped mountains, lush valleys, and hill stations. visit the beauty of Manali and Shimla.<br><br>Himalayas Tour Packages<br>Starting@ Rs.50 700.00</p>
+                <button class="button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="flights-section col-12" id="flights">
+        <h1 class="heading"><i class="fa-solid fa-plane-departure icon"></i> Flight Booking</h1>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Europe-Holiday-1200x320-19Mar.jpg?" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/WomensDay-1200x320-7Mar.jpg?" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Punakha-1200x320-12Feb.jpg?" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/SwissPeak-1200x320-20Mar.jpg?" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <form class="flight-form">
+            <div class="d-flex flex-row text-center">
+                <div class="form-row mr-3">
+                    <label for="from" class="lable">From:</label>
+                    <input type="text" id="from" name="from" placeholder="Enter Origin City" class="form-control">
+                </div>
+                <div class="form-row mr-3">
+                    <label for="to" class="lable">To:</label>
+                    <input type="text" id="to" name="to" placeholder="Enter Destination City" class="form-control">
+                </div>
+            </div>
+            <br />
+            <div class="form-row-container">
+                <div class="mr-3">
+                    <label for="depart-date" class="lable">Depart Date:</label>
+                    <input type="date" id="depart-date" name="depart-date" class="form-control">
+                </div>
+                <div class="mr-3">
+                    <label for="return-date" class="lable">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date" class="form-control">
+                </div>
+                <div class="mr-3">
+                    <label for="travellers" class="lable">Travellers:</label>
+                    <select id="travellers" name="travellers" class="form-control" required>
+                        <option value="1">1 Adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="4">4 Adults</option>
+                        <option value="more">More (Specify in comments)</option>
+                    </select>
+                </div>
+                <div class="mr-3">
+                    <label for="class" class="lable">Class:</label>
+                    <select id="class" name="class" class="form-control" required>
+                        <option value="conomy">Economy</option>
+                        <option value="premium-economy">Premium Economy</option>
+                        <option value="business">Business</option>
+                        <option value="first-class">First Class</option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <p for="checkbox"><input type="checkbox" id="checkbox" name="checkbox"> I here by accept the Privacy Policy and authorize Thomas Cook group companies. </p>
+            <br>
+            <button type="submit" class="Search-button">Search Flights</button>
+        </form>
+    </div>
+    <div class="hotel-section col-12" id="hotels">
+        <i class="fa-solid fa-hotel icon"></i>
+        <h1 class="heading">Find Your Perfect Stay!</h1>
+        <br>
+        <form action="#" method="post">
+            <div class="form-row-container mb-3">
+                <div class="mr-3">
+                    <label for="hotal-name" class="lable">Hotel Name:</label>
+                    <input type="text" id="hotal-name" name="hotal-name" class="form-control" placeholder="Enter Hotel Name" required>
+                </div>
+                <div class="mr-3">
+                    <label for="destination" class="lable">Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Enter Destination" class="form-control" required>
+                </div>
+                <div class="mr-3">
+                    <label for="check-in" class="lable">Check-In:</label>
+                    <input type="date" id="check-in" name="check_in" class="form-control" required>
+                </div>
+                <div class="mr-3">
+                    <label for="check-out" class="lable">Check-Out:</label>
+                    <input type="date" id="check-out" name="check_out" class="form-control" required>
+                </div>
+                <div class="mr-3">
+                    <label for="guests" class="lable">Guests:</label>
+                    <select id="guests" name="guests" class="form-control" required>
+                        <option value="1">1 Adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="more">More (Specify in comments)</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="Search-button" value="Search">Search</button>
+        </form>
+        <div class="hotel-container">
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/5000000/4800000/4791400/4791355/f1d7c5a0.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">The Leela Palace</h1>
+                    <p class="location">Chennai</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">2,999</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/6000000/5100000/5098500/5098424/fb36f2fe.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">Park Hyatt</h1>
+                    <p class="location">Kochi</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">3,499</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/2000000/1360000/1352800/1352722/cff139c1.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">Courtyard by Marriott</h1>
+                    <p class="location">Hyderabad</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">2,750</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/5000000/4950000/4942800/4942760/e9a3ff09.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">ITC Grand Chola</h1>
+                    <p class="location">Chennai</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">15,639</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/1000000/10000/9000/8950/c12a43d3.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">Trident, Chennai</h1>
+                    <p class="location">Chennai</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">5,689</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/1000000/530000/526400/526335/45c04e97.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">Taj Connemara</h1>
+                    <p class="location">Mumbai</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">9,780</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/5000000/4800000/4791400/4791355/f1d7c5a0.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">The Leela Palace</h1>
+                    <p class="location">Chennai</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">10,999</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="hotel-room">
+                <img src="https://images.trvl-media.com/lodging/2000000/1360000/1352800/1352722/cff139c1.jpg?" class="room-image">
+                <div class="hotel-room-description-card">
+                    <h1 class="hotel-heading">Courtyard by Marriott</h1>
+                    <p class="location">Delhi</p>
+                    <div>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                        <i class="fa-solid fa-star rating-icon"></i>
+                    </div>
+                    <p class="hotel-price"><i class="fa-solid fa-indian-rupee-sign">12,999</i></p>
+                    <button class="hotel-book-button">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="collection-section col-12" id="collections">
+        <h1 class="heading"><i class="fa-regular fa-bookmark"></i> Collections</h1>
+        <div class="collection-container">
+            <div class="collection-card">
+                <img src="https://img.freepik.com/free-photo/beautiful-landscape-beach-sea-ocean-with-empty-chair-deck-umbrella-nearly-coconut-palm-tree-with-white-cloud-blue-sky_74190-9981.jpg" alt="Beach Bliss Collection" class="collection-card-img">
+                <h3 class="collection-card-h3 mt-1">Beach Bliss Collection</h3>
+                <p>Relax on pristine sands and soak up the sun.</p>
+            </div>
+            <div class="collection-card">
+                <img src="https://img.freepik.com/free-photo/cheerful-young-girl-sitting-outdoor-cafe_1262-5451.jpg" alt="Spa & Wellness Retreats" class="collection-card-img">
+                <h3 class="collection-card-h3 mt-1">Spa & Wellness Retreats</h3>
+                <p>Indulge in mind, body, and soul renewal.</p>
+            </div>
+            <div class="collection-card">
+                <img src="https://img.freepik.com/free-photo/female-hiker-walking-wooden-bridge_23-2147870215.jpg" alt="Adventure Escapes" class="collection-card-img">
+                <h3 class="collection-card-h3 mt-1">Adventure Escapes</h3>
+                <p>Embrace the thrill and get close to nature.</p>
+            </div>
+            <div class="collection-card">
+                <img src="https://img.freepik.com/free-photo/wat-chang-rob-temple-kamphaeng-phet-historical-park-unesco-world-heritage-site_554837-442.jpg" alt="Historical Gems" class="collection-card-img">
+                <h3 class="collection-card-h3 mt-1">Historical Gems</h3>
+                <p>Immerse yourself in culture and savor the world's flavors.</p>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5 col-12" id="followUsSection">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="todos-heading">Todos</h1>
-                    <h1 class="create-task-heading">
-                        Create <span class="create-task-heading-subpart">Task</span>
-                    </h1>
-                    <input type="text" id="todoUserInput" class="todo-user-input" placeholder="What needs to be done?" />
-                    <button class="button" id="addTodoButton">Add</button>
-                    <h1 class="todo-items-heading">
-                        My <span class="todo-items-heading-subpart">Tasks</span>
-                    </h1>
-                    <ul class="todo-items-container" id="todoItemsContainer"></ul>
-                    <button class="button" id="saveTodoButton">Save</button>
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
                 </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter footer-icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram footer-icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook footer-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section col-12">
+        <div class="row">
+            <div class="col-12 text-center">
+                <i class="fa-solid fa-hotel icon"></i>
+                <h1 class="heading">Gogaga Holidays</h1>
+                <h1 class="footer-section-mail-id">booktour@Gogaga.com</h1>
+                <p class="footer-section-address">
+                    123 Ayur Vigyan Nagar, New Delhi, India.
+                </p>
             </div>
         </div>
     </div>
