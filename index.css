@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.bg-container {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/16850325/pexels-photo-16850325/free-photo-of-island-and-sea.jpeg");
+    background-size: cover;
+}
+
+.nav-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.home-container {
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-heading-1 {
+    font-family: "Poppins";
+    color: #ffffff;
+}
+
+.welcome-heading-2 {
+    font-family: "Copperplate";
+    color: #ffffff;
+}
+
+.welcome-heading-3 {
+    font-family: "Times New Roman";
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.icons-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.icon-card {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px 0px;
+}
+
+.icon {
+    font-size: 30px;
+    color: black;
+    align-self: center;
+}
+
+.cards-heading {
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+}
+
+.icon-heading {
+    font-size: 35px;
+    color: black;
+}
+
+.holiday-packages-section {
+    background-image: linear-gradient(to bottom, #ffffff, #25b1cc, #ffffff);
+    background-size: cover;
+    padding: 20px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.package-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.place-heading {
+
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.place-description {
+    color: white;
+
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    width: 138px;
+    height: 38px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.kerela-package {
+    background-image: url("https://www.flashpack.com/wp-content/uploads/2022/09/IN2_TripHeader-640x520.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    color: white;
+    background-size: cover;
+    width: 450px;
+}
+
+.lakshadweep-package {
+    background-image: url("https://www.livemint.com/lm-img/img/2024/01/08/600x338/ANI-20240104306-0_1704720758656_1704720794639.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    width: 450px;
+}
+
+.ayodhya-package {
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2024/01/e7237302-600x400-1.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    width: 450px;
+}
+
+.rajasthan-package {
+    background-image: url("https://www.divyanholidays.com/wp-content/uploads/2022/01/DSC0367_Snapseed_Fotor-56a3c3333df78cf7727f0a2e.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    width: 450px;
+}
+
+.goa-package {
+    background-image: url("https://dynamic.tourtravelworld.com/package-images/photo-big/dir_2/30027/269629.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    width: 450px;
+}
+
+.himachal-pradesh-package {
+    background-image: url("https://blog.thomascook.in/wp-content/uploads/2017/07/kinnaur.jpg");
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    width: 450px;
+}
+
+.lable {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.flights-section {
+    background-image: linear-gradient(to bottom, #ffffff, skyblue, #ffffff);
+    background-size: cover;
+    padding: 20px;
+}
+
+.form-row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.Search-button {
+    border-radius: 5px;
+    background-color: #25b1cc;
+    border: 0px;
+    color: white;
+    height: 38px;
+    font-size: 15px;
+    width: 120px;
+
+}
+
+.flight-form {
+    margin: 20px;
+}
+
+.hotel-section {
+    background-image: linear-gradient(to top, #ffffff, skyblue, #ffffff);
+    background-size: cover;
+    padding: 20px;
+}
+
+.hotel-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hotel-room {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    width: 400px;
+}
+
+.room-image {
+    height: 200px;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.hotel-heading {
+    font-size: 22px;
+}
+
+.rating-icon {
+    color: #d0b200;
+}
+
+.hotel-room-description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location {
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.hotel-book-button {
+    color: black;
+    background-color: transparent;
+    width: 138px;
+    height: 38px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.collection-section {
+    background-image: linear-gradient(to top, #ffffff, skyblue, #ffffff);
+    background-size: cover;
+    padding: 20px;
+}
+
+.collection-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.collection-card-img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.collection-card-h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.collection-card {
+    width: 230px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.footer-icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: grey;
+    padding-top: 20px;
+}
+
+.footer-section-mail-id {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: black;
+    font-family: "Roboto";
+    font-size: 14px;
+}
